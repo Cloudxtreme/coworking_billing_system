@@ -1,0 +1,162 @@
+body {
+    background-image: url('/armory/armory/public/images/main_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar-armory {
+    background-color: #46352f;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.navbar-nav>li>a {
+    color: rgba(212, 125, 63,1);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgba(212, 125, 63,1);
+}
+
+.panel-default>.panel-heading {
+    color: rgba(212,125,63,1);
+    background-color: #46352f;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+.nav-tabs>li {
+    width: 50%;
+}
+
+.membership-level {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(212,125,63,0.25);
+    background-size: 100% !important;
+    border: 1px solid #cc5500;
+    border-radius: 100%;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    display: inline-block;
+    margin: 0 1em 2em;
+    padding: 1em;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+}
+
+.membership-level:hover {
+	background-color: #70E440;
+	cursor: pointer;
+}
+
+/*.membership-24 {
+	background-image: url('/armory/armory/public/images/membership_24.png');
+}
+
+.membership-5 {
+	background-image: url('/armory/armory/public/images/membership_5.png');
+}
+
+.membership-3 {
+	background-image: url('/armory/armory/public/images/membership_3.png');
+}
+
+.membership-2 {
+	background-image: url('/armory/armory/public/images/membership_2.png');
+}
+
+.membership-1 {
+	background-image: url('/armory/armory/public/images/membership_1.png');
+}*/
+
+[data-stripe="cvc"] {
+    max-width: 60px;
+}
+
+.membership-level > h2 {
+    font-family: "Alegreya SC",Georgia,"Times New Roman","DejaVu Serif",serif serif;
+    font-size: 1.5em;
+    margin: 2em 0 0;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+.membership-level > p {
+    margin: 0;
+    text-align: center !important;
+}
+
+.membership-level > h4 {
+    color: #cc5500;
+    font-family: "Alegreya SC",Georgia,"Times New Roman","DejaVu Serif",serif serif;
+    font-size: 1.75em;
+    margin: 0 0 0.25em;
+    text-shadow: 0 0 1px rgba(0,0,0,0.25);
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.membership-level > span {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 4em;
+}
+
+.membership-24 > span {
+    line-height: .5em;
+    font-size: 8em;
+}
+
+#price{
+    /*color: green;*/
+}
+
+.cancel-button {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.cancel-button:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+
+.change-button {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+.change-button:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+/*.land div.row div {
+    border-top: solid 1px #46352f;
+}
+
+.land div.row div.col-md-7 {
+    border-right: solid 1px #46352f;
+}*/
+
+.table-scheme td {
+    border: solid 1px #46352f !important;
+    font-size: 2vw !important;
+}
+
+@media screen and (max-width: 768px) {
+    select[data-stripe="exp-year"] {
+        margin-top: 15px;
+    }
+}
